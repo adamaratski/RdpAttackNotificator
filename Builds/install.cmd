@@ -1,0 +1,1 @@
+installutil RdpAttackNotificator.Service.exe
