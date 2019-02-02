@@ -1,1 +1,0 @@
-installutil /u RdpAttackNotificator.Service.exe
