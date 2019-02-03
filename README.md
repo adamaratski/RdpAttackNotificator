@@ -5,7 +5,7 @@ Service for notifications about RDP attacks.
 All settings are stored in RdpAttackNotificator.Service.exe.config file.
 
 
-Service can be configured for each type of OS. If current version was not found in OS list, default record is used.
+Service can be configured for each type of OS. If current version is not found in OS list, default record is used.
 Default config contains search patterns for 'us' and 'ru' versions of OS.
 ```C#
 <OperationSystems>
