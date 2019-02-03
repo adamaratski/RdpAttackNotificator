@@ -23,7 +23,7 @@ Service allows to send blacklist to set of routers. By default it has one record
     <LockTarget Index="1" TargetType="Mikrotik" Target="192.168.88.1" Port="8728" User="admin" Password="" BlackList="rdp_restricted" LockPeriod="1d" />
 </LockTargets>
 ```
-Service allows skipping IPs according to whitelist.
+Service allows to skip IPs according to whitelist.
 ```C#
 <WhiteList>
     <add name="local" value="127.0.0.1"/>
